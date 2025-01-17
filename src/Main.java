@@ -6,9 +6,9 @@ import com.twilio.type.PhoneNumber;
 
 public class Main extends JFrame {
     private static final long serialVersionUID = 4648172894076113183L;
-    private static final String ACCOUNT_SID = "AC2f27688d32d94c11bc80f6f6cdc5aa0a";
-    private static final String AUTH_TOKEN = "986f729fc6c966dd4d87e38e651d541e";
-    private static final String FROM_NUMBER = "+18885418161"; // Format: +1234567890
+    private static final String ACCOUNT_SID = "SID";
+    private static final String AUTH_TOKEN = "TOKEN";
+    private static final String FROM_NUMBER = "TWILIO_NUMBER"; // Format: +1234567890
     
     private JTextField phoneField;
     private JTextArea messageArea;
